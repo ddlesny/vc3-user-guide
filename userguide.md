@@ -81,4 +81,4 @@ In order to create a virtual cluster, the VC3 software needs to be able to SSH t
 
 You will need to add this token to your Unix account, in the file `~/.ssh/authorized_keys`. You can either edit this file with your favorite editor (such as `nano`, `vim,` or `emacs`), or use the `echo` command to append it to the authorized keys file.
 
-![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_280.png?raw=true "Adding to the remote resource")
+![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_282.png?raw=true "Adding to the remote resource")
