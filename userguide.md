@@ -40,12 +40,16 @@ When you first visit https://www-dev.virtualclusters.org, you'll be presented wi
 
 ![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_272.png?raw=true "VC3 Main Page")
 
+-----
+
 ##### 2. Sign in to Globus
 You will then be asked to sign in with your institutional identity, or your Globus ID. If you are using the former, simply type in the name of your institution and click "Continue". Proceed to Step 3a.
 
 Otherwise, click "Sign in with Globus ID" and proceed to the alternate Step 3b.
 
 ![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_273.png?raw=true "Sign-in")
+
+-----
 
 ##### 3a. Login with your institutional ID
 You should be presented with a login page for your institutional ID, with your institution's branding. Go ahead and sign-in now. Note that your password is *not* sent to the VC3 or Globus web portals. Continue to step 4.
@@ -57,10 +61,18 @@ You should be presented with a login page for your institutional ID, with your i
 
 <-- Globus ID page -->
 
+
+------
+
+
 ##### 4. Complete or update your VC3 profile
 Once you have signed in, you'll be asked to update or complete your VC3 profile with information such as your Institution and any other information we cannot directly extract from your Globus account. Click "Update Profile" once done.
 
 ![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_276.png?raw=true "Update profile")
+
+
+-----
+
 
 ##### 5. Connect an allocation 
 After updating your profile, you can connect an allocation to the VC3 service. An allocation, in VC3, is defined as combination of a username and resource target that consumes some type of compute unit - regardless of whether it is billed as Service Units (many HPC centers), dollars (AWS, GCE), or priority (HTCondor and other opportunistic systems). 
