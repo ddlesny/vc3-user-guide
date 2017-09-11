@@ -1,6 +1,7 @@
 VC3 User Guide
 ==============
 _Last revised: Monday, September 11, 2017_
+
 questions/comments: lincolnb@uchicago.edu
 
 ### Table of Contents 
