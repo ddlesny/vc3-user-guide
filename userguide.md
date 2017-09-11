@@ -8,7 +8,7 @@ questions/comments: lincolnb@uchicago.edu
 - [Getting Started with VC3](#getting-started-with-vc3)
   * [Prerequisites](#prerequisites)
   * [Bulding your first Virtual Cluster](#bulding-your-first-virtual-cluster)
-        * [Login or Create Account](#1-login-or-create-account)
+  * [Login or Create Account](#1-login-or-create-account)
         * [Sign in to Globus](#2-sign-in-to-globus)
         * [Login with your institutional ID](#3a-login-with-your-institutional-id)
         * [Login with your Globus ID](#3b-login-with-your-globus-id)
