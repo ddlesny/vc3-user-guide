@@ -4,17 +4,20 @@ _Last revised: Tuesday, September 12, 2017_
 
 questions/comments: lincolnb@uchicago.edu
 
-### Table of Contents 
 - [What is VC3?](#what-is-vc3-)
 - [Getting Started with VC3](#getting-started-with-vc3)
-- [Prerequisites](#prerequisites)
-- [Bulding your first Virtual Cluster](#bulding-your-first-virtual-cluster)
-  * [Login or Create Account](#1-login-or-create-account)
-  * [Sign in to Globus](#2-sign-in-to-globus)
-  * [Login with your institutional ID](#3a-login-with-your-institutional-id)
-  * [Login with your Globus ID](#3b-login-with-your-globus-id)
-  * [Complete or update your VC3 profile](#4-complete-or-update-your-vc3-profile)
-  * [Connect an allocation](#5-connect-an-allocation)
+  * [Prerequisites](#prerequisites)
+  * [Bulding your first Virtual Cluster](#bulding-your-first-virtual-cluster)
+      - [1. Login or Create Account](#1-login-or-create-account)
+      - [2. Sign in to Globus](#2-sign-in-to-globus)
+      - [3a. Login with your institutional ID](#3a-login-with-your-institutional-id)
+      - [3b. Login with your Globus ID](#3b-login-with-your-globus-id)
+      - [4. Complete or update your VC3 profile](#4-complete-or-update-your-vc3-profile)
+      - [5. Connect an allocation](#5-connect-an-allocation)
+      - [6. Defining a project](#6-defining-a-project)
+      - [7. Creating a Cluster Template](#7-creating-a-cluster-template)
+      - [8. Resources](#8-resources)
+      - [9. Launching a Virtual Cluster](#9-launching-a-virtual-cluster)
 
 # What is VC3?
 Virtual Clusters for Community Computation, or VC3, is a platform for connecting clusters, grids, and clouds. VC3 can run overlay systems for a variety of cluster frameworks to make disparate resources appear as a single "virtual" resource for collaborative science. 
@@ -119,5 +122,3 @@ You can also click an individual resource and see expanded information, such as 
 
 
 #### 9. Launching a Virtual Cluster
-
-Once you have defined allocations and 
