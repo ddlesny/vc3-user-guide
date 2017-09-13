@@ -1,19 +1,23 @@
 VC3 User Guide
 ==============
-_Last revised: Monday, September 11, 2017_
+_Last revised: Tuesday, September 12, 2017_
+
 questions/comments: lincolnb@uchicago.edu
 
-### Table of Contents 
 - [What is VC3?](#what-is-vc3-)
 - [Getting Started with VC3](#getting-started-with-vc3)
-- [Prerequisites](#prerequisites)
-- [Bulding your first Virtual Cluster](#bulding-your-first-virtual-cluster)
-  * [Login or Create Account](#1-login-or-create-account)
-  * [Sign in to Globus](#2-sign-in-to-globus)
-  * [Login with your institutional ID](#3a-login-with-your-institutional-id)
-  * [Login with your Globus ID](#3b-login-with-your-globus-id)
-  * [Complete or update your VC3 profile](#4-complete-or-update-your-vc3-profile)
-  * [Connect an allocation](#5-connect-an-allocation)
+  * [Prerequisites](#prerequisites)
+  * [Bulding your first Virtual Cluster](#bulding-your-first-virtual-cluster)
+      - [1. Login or Create Account](#1-login-or-create-account)
+      - [2. Sign in to Globus](#2-sign-in-to-globus)
+      - [3a. Login with your institutional ID](#3a-login-with-your-institutional-id)
+      - [3b. Login with your Globus ID](#3b-login-with-your-globus-id)
+      - [4. Complete or update your VC3 profile](#4-complete-or-update-your-vc3-profile)
+      - [5. Connect an allocation](#5-connect-an-allocation)
+      - [6. Defining a project](#6-defining-a-project)
+      - [7. Creating a Cluster Template](#7-creating-a-cluster-template)
+      - [8. Resources](#8-resources)
+      - [9. Launching a Virtual Cluster](#9-launching-a-virtual-cluster)
 
 # What is VC3?
 Virtual Clusters for Community Computation, or VC3, is a platform for connecting clusters, grids, and clouds. VC3 can run overlay systems for a variety of cluster frameworks to make disparate resources appear as a single "virtual" resource for collaborative science. 
@@ -94,3 +98,27 @@ In order to create a virtual cluster, the VC3 software needs to be able to SSH t
 You will need to add this token to your Unix account, in the file `~/.ssh/authorized_keys`. You can either edit this file with your favorite editor (such as `nano`, `vim,` or `emacs`), or use the `echo` command to append it to the authorized keys file.
 
 ![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_282.png?raw=true "Adding to the remote resource")
+
+This token allows the VC3 system to SSH into a cluster _as you_ and submit jobs on your, or your project's, behalf.
+
+#### 6. Defining a project
+
+VC3, as a platform for cooperative scientific computing, allows you create projects to share your allocations and virtual clusters with trusted members of your group, laboratory, or collaboration. To start a new project, click "Projects" on the sidebar,  then click "+ New Project". 
+
+You may give your project an aribtrary name and choose initial project members. Once finished, click "Create Project".
+
+You should be returned to the Projects page, where you will be able to see all of your projects and memberships. 
+
+#### 7. Creating a Cluster Template
+VC3 allows users to create "Cluster Templates" that describe the components of their virtual cluster, including number of head nodes, worker nodes, etc. We currently support HTCondor and WorkQueue clusters with dynamic worker nodes, and fixed head nodes.
+
+To define a new template, click the "Cluster Templates" link on the left panel. You'll be able to give your cluster a name, select framework, and number of workers. Click "Define Cluster" to finish creating the template. 
+
+#### 8. Resources
+
+The VC3 team curates an ever-expanding list of resources for end-users, with a focus on Campus Clusters, HPC centers, and Cloud resources. You can find these resources by clicking the "Resources" link on the left panel. 
+
+You can also click an individual resource and see expanded information, such as batch system type, links to documentation, etc. 
+
+
+#### 9. Launching a Virtual Cluster
