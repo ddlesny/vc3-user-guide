@@ -105,14 +105,22 @@ This token allows the VC3 system to SSH into a cluster _as you_ and submit jobs 
 
 VC3, as a platform for cooperative scientific computing, allows you create projects to share your allocations and virtual clusters with trusted members of your group, laboratory, or collaboration. To start a new project, click "Projects" on the sidebar,  then click "+ New Project". 
 
+![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_283.png?raw=true "Projects dashboard")
+
 You may give your project an aribtrary name and choose initial project members. Once finished, click "Create Project".
 
+![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_284.png?raw=true "Create project")
+
 You should be returned to the Projects page, where you will be able to see all of your projects and memberships. 
+
+![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_285.png?raw=true "Project created")
 
 #### 7. Creating a Cluster Template
 VC3 allows users to create "Cluster Templates" that describe the components of their virtual cluster, including number of head nodes, worker nodes, etc. We currently support HTCondor and WorkQueue clusters with dynamic worker nodes, and fixed head nodes.
 
 To define a new template, click the "Cluster Templates" link on the left panel. You'll be able to give your cluster a name, select framework, and number of workers. Click "Define Cluster" to finish creating the template. 
+
+![alt text](https://github.com/vc3-project/vc3-user-guide/blob/master/images/screenshot_286.png?raw=true "Define a new cluster template")
 
 #### 8. Resources
 
